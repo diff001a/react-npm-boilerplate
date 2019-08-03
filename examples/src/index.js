@@ -1,14 +1,14 @@
 import React from "react";
 import { render } from "react-dom";
 import styled from "styled-components";
-import Datepicker from "../../src";
+import Component from "../../src";
 import GlobalStyle from "./GlobalStyle";
 
 const App = () => {
   return (
     <Wrapper>
       <GlobalStyle />
-      <Datepicker />
+      <Component />
     </Wrapper>
   );
 };
